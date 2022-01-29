@@ -1,12 +1,12 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/wonderful-morse-63f91e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9f2f756f-e1fc-48d9-9c07-b7d7433d8aaa/deploy-status)](https://app.netlify.com/sites/reverent-hermann-fd8089/deploys)
 
-# A Twosome Place 투썸플레이스 🍰 🍨
+# A Twosome Place 투썸플레이스 🎂 🍓
 
 투썸플레이스 모바일 페이지 제작
 
-[투썸플레이스 모바일 페이지](https://wonderful-morse-63f91e.netlify.app/)
+[투썸플레이스 모바일 페이지](https://reverent-hermann-fd8089.netlify.app/)
 
-[투썸플레이스 서브페이지 - 브랜드스토리](https://wonderful-morse-63f91e.netlify.app/)
+[투썸플레이스 서브페이지 - Brand Story](https://reverent-hermann-fd8089.netlify.app/brand_story.html)
 
 ![투썸플레이스](https://raw.githubusercontent.com/jiisunny/twosome-mobile/master/_assets/main_screenshot.png)
 
