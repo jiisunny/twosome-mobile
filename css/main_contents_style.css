@@ -1,0 +1,113 @@
+/* main_contents_style.css */
+
+#container{
+  width: 100%;
+}
+#container > section,
+#container > div{
+  width: 100%;
+}
+  /**** 섹션 제목(title) ****/
+  h2.title{
+    height: 60px;
+    padding-left: 35px;
+    line-height: 60px;
+  }
+    h2.title > strong{
+      font-size: 24px;
+      font-weight: 800;
+    }
+    h2.title > span{
+      color: #ab1f2e;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  /**** 이벤트 이미지 ****/
+  div#event1 > a, div#event1 > a > img,
+  div#event2 > a, div#event2 > a > img{
+    width: 100%;
+  }
+/**** Recommendation & md : 상품 리스트포함 ****/
+section#recommendation{
+  margin: 40px 0;
+}
+section#md{
+  margin: 20px 0;
+}
+  /**** 상품 리스트 ****/
+  div.menu_list_wrap{
+    width: 100%;
+    overflow: auto;
+  }
+    ul.menu_list{
+      overflow: hidden;
+    }
+    section#recommendation ul.menu_list{
+      width: 200%;
+    }
+    section#md ul.menu_list{
+      width: 100%;
+    }
+      li.menu{
+        float: left;
+      }
+      section#recommendation li.menu{
+        width: 25%;
+      }
+      section#md li.menu{
+        width: 50%;
+      }
+        li.menu > img{
+          width: 100%;
+        }
+        li.menu > .text{
+          width: 100%;
+          text-align: center;
+          box-sizing: border-box;
+          padding: 0 5px;
+        }
+          .text > h3{
+            font-weight: 700;
+            font-size: 15px;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+          .text > span{
+            display: block;
+            color: #a2a2a2;
+            width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+          .text > em{
+            display: block;
+            color: #ab1f2e;
+            font-weight: 700;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+          }
+/**** 공지사항 ****/
+section#notice{
+  margin: 40px 0 55px;
+}
+  section#notice > ul{
+    padding: 0 30px;
+  }
+    section#notice > ul > li{
+      background: url(../images/list_style.png) no-repeat 1px 50%;
+      padding-left: 5px;
+      line-height: 26px;
+    }
+      section#notice > ul > li > a{
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      section#notice > ul > li > span.date{
+        display: none;
+      }

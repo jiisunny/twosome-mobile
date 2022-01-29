@@ -1,0 +1,26 @@
+/* footer_style.css */
+
+#main_footer{
+  width: 100%;
+  text-align: center;
+}
+  ul.util{
+    background: #2c2a29;
+    overflow: hidden;
+  }
+    ul.util > li{
+      width: 50%;
+      height: 50px;
+      float: left;
+    }
+      ul.util > li > a{
+        line-height: 50px;
+        color: #fff;
+      }
+  #main_footer > address{
+    background: #262425;
+    height: 60px;
+    line-height: 60px;
+    color: #737373;
+    letter-spacing: -1px;
+  }

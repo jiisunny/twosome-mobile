@@ -1,0 +1,137 @@
+/* sub_contents_style.css */
+
+#container{
+  width: 100%;
+}
+  #tabbar{
+    width: 100%;
+  }
+    #tabbar > .label{
+      background: #2c2a29;
+    }
+      #tabbar > .label > ul{
+        width: 100%;
+        display: table; 
+      }
+        #tabbar > .label > ul > li{
+          display: table-cell;
+          color: #fff;
+          text-align: center;
+          line-height: 60px;
+        }
+        #tabbar > .label > ul > li.active{
+          font-weight: 800;
+        }
+
+      #tabbar > .description > div{
+        display: none;
+      }
+      #tabbar > .description > div.active{
+        display: block;
+      }
+        #story > h1,
+        #history > h1,
+        #bi > h1{
+          width: 100%;
+          height: 200px;
+          background: url(../images/bs_background_m.png) no-repeat center;
+          text-indent: -6000px; overflow: hidden;
+        }
+        #history > h1{
+          background-image: url(../images/ht_background_m.png);
+        }
+        #bi > h1{
+          background-image: url(../images/bi_background_m.png);
+        }
+        #story > h2,
+        #history > h2,
+        #bi > h2{
+          font-size: 18px;
+          font-weight: 700;
+          padding: 30px 20px;
+          text-align: center;
+        }
+        #story > article,
+        #history > article,
+        #bi > article{
+          margin-bottom: 20px;
+        }
+          #story > article > img{
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          #tabbar strong{
+            display: block;
+            font-weight: 700;
+            font-size: 15px;
+            margin: 0 15px 20px;
+          }
+          #tabbar strong.color{
+            color: #ab1f2e;
+            font-size: 14px;
+            line-height: 20px;
+            padding-bottom: 10px;
+          }
+          #tabbar p{
+            padding: 0 15px;
+          }
+          #tabbar p.color2{
+            color: #aaa;
+            margin-top: 20px;
+          }
+            #tabbar p > em{
+              display: block;
+              font-weight: 700;
+              margin-bottom: 5px;
+            }
+            #tabbar p.color2 > em{
+              color: #000;
+              display: inline;
+            }
+
+          /** 연혁 연도별 **/
+          article.history_detail > dl{
+            width: 100%; height: 75px;
+            border-bottom: 1px solid #d1d1d1;
+            display: table;
+          }
+            article.history_detail > dl > dt,
+            article.history_detail > dl > dd{
+              display: table-cell;
+            }
+            article.history_detail > dl > dt{
+              width: 113px;
+              box-sizing: border-box;
+              padding: 24px 19px 0;
+            }
+            article.history_detail > dl > dd{
+              vertical-align: middle;/* table-cell값이 입력된 부분에만 적용이 됨 */
+            }
+              article.history_detail > dl > dd > p{
+                background: url(../images/list_style.png) no-repeat left center;
+              }
+                article.history_detail > dl > dd > p > span{
+                  display: block;
+                }
+          /**** BI 세부디자인 ****/
+          .bi_detail > h3{
+            width: 200px;
+            margin: 0 auto 20px;
+          }
+          .bi_detail > div{
+            background: url(../images/bi_pattern.png);
+            padding-bottom: 30px;
+          }
+              .bi_detail dl > dt{
+                padding: 30px 0 0 15px;
+                padding-bottom: 10px;
+                font-size: 20px;
+              }
+                .bi_detail dl > dd > img{
+                  margin: 0 auto;
+                }
+
+/***** CLASS STYLE *****/
+.m_t_10{
+  margin-top: 10px;
+}

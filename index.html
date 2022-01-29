@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>투썸플레이스</title>
+
+  <!-- 오픈 그래프(The Open Graph protocol) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="투썸플레이스" />
+  <meta property="og:title" content="투썸플레이스" />
+  <meta property="og:description" content="트렌디 유러피안 문화 카페 투썸플레이스" />
+  <meta property="og:image" content="./images/twosome_seo.png" />
+  <meta property="og:url" content="#" />
+
+  <!-- 트위터 카드(Twitter Cards) -->
+  <meta property="twitter:card" content="summary" />
+  <meta property="twitter:site" content="투썸플레이스" />
+  <meta property="twitter:title" content="투썸플레이스" />
+  <meta property="twitter:description" content="트렌디 유러피안 문화 카페 투썸플레이스" />
+  <meta property="twitter:image" content="./images/twosome_seo.png" />
+  <meta property="twitter:url" content="#" />
+
+  <link rel="icon" href="./favicon.png" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+  <link rel="stylesheet" href="css/master.css" />
+  <script src="js/jquery-3.5.0.min.js"></script>
+  <script src="js/menu.js"></script>
+
+  <!-- Link Swiper's css -->
+  <link rel="stylesheet" href="css/swiper.css">
+
+  <!-- Demo styles -->
+  <style>
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-slide > img{
+    width: 100%;
+  }
+  </style>
+</head>
+<body>
+<!-- HEADER -->
+<header id="main_header">
+  <!-- 로고 -->
+  <h1 class="logo"><a href="index.html">A Twosome Place</a></h1>
+  <!-- 토글 버튼 -->
+  <label class="toggle" for="toggle">toggle</label>
+</header>
+
+<!-- nav -->
+<input id="toggle" type="checkbox" />
+<nav id="main_nav_wrap">
+  <!-- 상단메뉴 -->
+  <ul id="login">
+    <li><a href="javascript:void(0)">로그인</a></li>
+    <li><a href="javascript:void(0)">회원가입</a></li>
+  </ul>
+  <!-- 메인메뉴 --> 
+  <ul id="main_nav">
+    <li>
+      <h3 style="color: #a9202a;">브랜드스토리</h3>
+      <ul class="sub_nav">
+        <li><a href="brand_story.html" style="color: #a9202a;">브랜드이야기</a></li>
+        <li><a href="javascript:void(0)">커피이야기</a></li>
+        <li><a href="javascript:void(0)">디저트이야기</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>메뉴</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">신제품</a></li>
+        <li><a href="javascript:void(0)">디저트</a></li>
+        <li><a href="javascript:void(0)">케이크</a></li>
+        <li><a href="javascript:void(0)">커피&음료</a></li>
+        <li><a href="javascript:void(0)">델리</a></li>
+        <li><a href="javascript:void(0)">MD</a></li>
+        <li><a href="javascript:void(0)">영양성분표</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>매장정보</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">매장찾기</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>투썸플레이스 APP</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">투썸플레이스 APP 소개</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>이벤트</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">이벤트</a></li>
+        <li><a href="javascript:void(0)">매장별 이벤트</a></li>
+        <li><a href="javascript:void(0)">멤버십&제휴카드</a></li>
+        <li><a href="javascript:void(0)">디저트&커피클래스</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>가맹정보</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">가맹정보</a></li>
+        <li><a href="javascript:void(0)">창업정보 및 절차</a></li>
+        <li><a href="javascript:void(0)">온라인창업상담</a></li>
+        <li><a href="javascript:void(0)">정보공개서</a></li>
+        <li><a href="javascript:void(0)">FAQ</a></li>
+        <li><a href="javascript:void(0)">가맹점 전용 금융상품</a></li>
+        <li><a href="javascript:void(0)">창업설명회</a></li>
+      </ul>
+    </li>
+    <li>
+      <h3>로스터리 카페</h3>
+      <ul class="sub_nav">
+        <li><a href="javascript:void(0)">로스터리 카페</a></li>
+      </ul>
+    </li>
+    <li class="logo">
+      <a href="index.html">A Towsome place</a>
+    </li>
+  </ul>
+  <!-- 닫기영역 -->
+  <label class="btn_close" for="toggle"></label>
+</nav>
+
+<!-- [s]BANNER -->
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/img01.jpg" alt="배너1"/></div>
+    <div class="swiper-slide"><img src="images/img02.jpg" alt="배너2"/></div>
+    <div class="swiper-slide"><img src="images/img03.jpg" alt="배너3"/></div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="js/swiper.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper('.swiper-container', {
+spaceBetween: 0,
+centeredSlides: true,
+autoplay: {
+  delay: 2500,
+  disableOnInteraction: false,
+},
+pagination: {
+  el: '.swiper-pagination',
+},
+});
+</script>
+<!-- [e]BANNER -->
+
+<!-- CONTAINER -->
+<div id="container">
+  <section id="recommendation">
+    <h2 class="title">
+      <strong>추천메뉴</strong>
+      <span>Recommendation</span>
+    </h2>
+    <div class="menu_list_wrap">
+      <ul class="menu_list">
+        <li class="menu">
+          <img src="images/recommendation_01.png" alt="TWG 애플 시나몬 티" />
+          <div class="text">
+            <h3>TWG 애플 시나몬 티</h3>
+            <span>TWG Apple Cinnamon Tea</span>
+            <em>￦5,800</em>
+          </div>
+        </li>
+        <li class="menu">
+          <img src="images/recommendation_02.png" alt="[ICE] 오설록 말차 플랫 화이트" />
+          <div class="text">
+            <h3>[ICE] 오설록 말차 플랫 화이트</h3>
+            <span>[ICE] Osulloc Matcha Flat White</span>
+            <em>￦5,100</em>
+          </div>
+        </li>
+        <li class="menu">
+          <img src="images/recommendation_03.png" alt="더치 솔티드 카라멜 피스" />
+          <div class="text">
+            <h3>더치 솔티드 카라멜 피스</h3>
+            <span>Dutch Slated Carame</span>
+            <em>￦5,800</em>
+          </div>
+        </li>
+        <li class="menu">
+          <img src="images/recommendation_04.png" alt="TWG 로얄 밀크티 쉬폰 피스" />
+          <div class="text">
+            <h3>TWG 로얄 밀크티 쉬폰 피스</h3>
+            <span>TWG Royal Milktea Chiffon</span>
+            <em>￦5,300 </em>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div id="event1">
+    <a href="javascript:void(0)">
+      <img src="images/gift.png" alt="-SPECIALLY FOR YOU- 2017 투썸 추석 선물세트 프리미엄 커피 세트와 함께 고마움을 전하세요. 기프트세트 17_1호 18,000won">
+    </a>
+  </div>
+
+  <section id="md">
+    <h2 class="title">
+      <strong>MD</strong>
+    </h2>
+    <div class="manu_list_wrap">
+        <ul class="menu_list">
+          <li class="menu">
+            <img src="images/MD_01.png" alt="투썸 기프트세트 17_3호">
+            <div class="text">
+              <h3>투썸 기프트세트 22_3호</h3>
+              <span>Twosome Gift Set 3</span>
+              <em>￦36,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_02.png" alt="투썸 기프트세트 17_2호">
+            <div class="text">
+              <h3>투썸 기프트세트 22_2호</h3>
+              <span>Twosome Gift Set 2</span>
+              <em>￦28,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_03.png" alt="투썸 기프트세트 17_1호">
+            <div class="text">
+              <h3>투썸 기프트세트 22_1호</h3>
+              <span>Twosome Gift Set 1</span>
+              <em>￦28,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_04.png" alt="투썸 보온텀블러 대">
+            <div class="text">
+              <h3>투썸 보온텀블러 대</h3>
+              <span>Twosome Vacuum Tumbler L</span>
+              <em>￦32,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_05.png" alt="투썸X태용 장우산">
+            <div class="text">
+              <h3>투썸X태용 장우산</h3>
+              <span>Taeyong Umbrella</span>
+              <em>￦18,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_06.png" alt="투썸X태용 아이스 보틀">
+            <div class="text">
+              <h3>투썸X태용 아이스 보틀</h3>
+              <span>Teayoug Ice Bottle</span>
+              <em>￦10,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_07.png" alt="투썸X태용 더블월 글라스">
+            <div class="text">
+              <h3>투썸X태용 더블월 글라스</h3>
+              <span>Teayong Glass Cup</span>
+              <em>￦9,000</em>
+            </div>
+          </li>
+          <li class="menu">
+            <img src="images/MD_08.png" alt="투썸 수분충전보틀_투명">
+            <div class="text">
+              <h3>투썸 수분충전보틀_투명</h3>
+              <span>Hydration Botte_C</span>
+              <em>￦15,000</em>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </h2>
+  </section>
+
+  <div id="event2">
+    <a href="javascript:void(0)"><img src="images/cjEvent_m.png" alt="영화 보고, 밥 먹고, 커피 마시고, 쇼핑까지! CJ TOWN에서 놀자 9.11~9.30"></a>
+  </div>
+
+  <section id="notice">
+    <h2 class="title">
+      <strong>공지</strong>
+      <span>Notice</span>
+    </h2>
+    <ul>
+      <li>
+        <a href="javascript:void(0)">[당첨자 안내] TWOSOME SUMMER EVENT 빙수X에어베드 인스타그램 해시태그 이벤트</a>
+        <span class="date">2022.08.13</span>
+      </li>
+      <li>
+        <a href="javascript:void(0)">[행사 제외매장 안내] TWOSOME SUMMER EVENT 빙수X에어베드</a>
+        <span class="date">2022.08.08</span>
+      </li>
+      <li>
+        <a href="javascript:void(0)">투썸 APP 시스템 정기점검 안내</a>
+        <span class="date">2022.07.18</span>
+      </li>
+      <li>
+        <a href="javascript:void(0)">[정책 공지] CJ ONE 제휴 서비스 및 이용 약관 변경 안내</a>
+        <span class="date">2022.05.19</span>
+      </li>
+      <li>
+        <a href="javascript:void(0)">[정책 공지] CJ ONE 제휴 서비스 및 이용 약관 변경 안내</a>
+        <span class="date">2022.02.28</span>
+      </li>
+    </ul>
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer id="main_footer">
+  <ul class="util">
+    <li><a href="javascript:void(0)">회사소개</a></li>
+    <li><a href="javascript:void(0)">사이트맵</a></li>
+    <li><a href="javascript:void(0)">리쿠르트</a></li>
+    <li><a href="javascript:void(0)">이용약관</a></li>
+    <li><a href="javascript:void(0)">개인정보처리방침</a></li>
+    <li><a href="javascript:void(0)">이메일 무단수집거부</a></li>
+    <li><a href="javascript:void(0)">법적고지</a></li>
+    <li><a href="javascript:void(0)">윤리신고센터</a></li>
+  </ul>
+  <address>copyright &copy; 2022 CJ Foodville ALL RIGHTS RESERVED</address>
+</footer>
+</body>
+</html>
