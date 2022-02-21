@@ -98,10 +98,21 @@ input#toggle:checked + #main_nav_wrap{
     width: 20%;
     position: absolute;
     left: 80%; top: 0; bottom: 0;
-    background: rgba( 0,0,0,0.3);
-    opacity: 0;
+    background: rgba( 0,0,0,0.6);
+  }
+  #main_nav_wrap > label.cross{
+    width: 25px; height: 22px;
+    background: url(../images/btn_close.png);
+    position: absolute;
+    left: 13px; top: 21px;
+    text-indent: -6000px; overflow: hidden;
+    transform: rotateZ(0deg);
   }
   input#toggle:checked + #main_nav_wrap > label.btn_close{
-    left: 0;
+    right: 0;
     transition-duration: 0.3s;
+  }
+  input#toggle:checked + #main_nav_wrap > label.cross{
+    transform: rotateZ(180deg);
+    transition-duration: 0.8s;
   }
